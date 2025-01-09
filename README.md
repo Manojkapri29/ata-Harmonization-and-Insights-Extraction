@@ -18,14 +18,14 @@ To address ambiguities and inconsistencies in datasets and create a unified with
 2. *Insightful Analysis*: Trends and relationships derived from the data.  
 3. *Documentation*:  
    - A detailed Jupyter Notebook with code, visualizations, and explanations.  
-   - A PowerPoint presentation summarizing the objectives, methodology, and findings.
+   - A PowerPoint presentation summarizing the objectives, data wrangling method, and findings.
 
 ---
 
  Datasets Used  
-1. *Dataset_1*: User rentals and weather conditions.  
-2. *Dataset_2*: Additional user rental data.  
-3. *Dataset_3*: Integrates with other datasets to enhance insights.
+1. dataset_1: User rentals and weather conditions.  
+2. dataset_2: Additional user rental data.  
+3. dataset_3: Integrates with other datasets to enhance insights.
 
 
 
@@ -81,7 +81,7 @@ Key Insights and Learning Outcomes
 
 Final Deliverables  
 1. Unified Dataset: Clean and integrated for analysis.  
-2. Jupyter Notebook*: Contains code, analysis, and visualizations.  
+2. Jupyter Notebook: Contains code, analysis, and visualizations.  
 3. PowerPoint Presentation: Summarizes the project objectives, methods, and results.
 
 ---
