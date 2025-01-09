@@ -9,7 +9,7 @@ Manoj Kapri
 ---
 
  Objective  
-To address ambiguities and inconsistencies in datasets and create a unified with preprocessing of data ,clean dataset for accurate business analysis and modeling.
+To address ambiguities and inconsistencies in datasets and create a unified with preprocessing of data ,clean dataset for accurate business analysis and modeling.We will preprocess the data which will make the data easy to use and more likely to give us the better way to get the best outcome.
 
 ---
 
@@ -34,21 +34,21 @@ To address ambiguities and inconsistencies in datasets and create a unified with
 
 Project Phases  
 
-1. Data Preparatio*  
+1. Data Preparatio
 - Addressed missing values.  
 - Conducted basic statistical analysis.
 
-2. Dataset Integration*  
+2. Dataset Integration  
 - Merged datasets using common keys.  
 - Detected and addressed outliers.
 
-3. Advanced Data Analysis*  
+3. Advanced Data Analysis 
 - Skewness analysis and correlation computations.  
 - Visualized insights with boxplots and heatmaps.
 
 ---
 
-Tools and Techniques*  
+Tools and Techniques 
 1. Pandas: Data manipulation and transformation.  
 2. NumPy: Numerical computations for dataset analysis.  
 3. Data Integration: Merging datasets and handling missing values through imputation.
