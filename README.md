@@ -1,4 +1,4 @@
-# ata-Harmonization-and-Insights-Extraction
+# Data-Harmonization-and-Insights-Extraction
 Project Title:  
 Data Harmonization and Insights Extraction  
 A comprehensive analysis of data preparation, integration, and advanced insights extraction.
