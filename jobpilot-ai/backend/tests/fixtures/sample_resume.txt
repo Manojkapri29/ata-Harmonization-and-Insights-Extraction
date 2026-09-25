@@ -1,0 +1,32 @@
+Asha Verma
+asha.verma@example.com | +91 98765 43210 | linkedin.com/in/asha-verma-demo | Noida
+
+PROFESSIONAL SUMMARY
+MIS and reporting professional with experience building Excel and Power BI reports for operations teams.
+
+WORK EXPERIENCE
+MIS Executive | Example Retail Pvt Ltd, Noida        Apr 2022 – Present
+• Responsible for preparing daily and monthly MIS reports for 40 stores using Advanced Excel and Power Query
+• Automated weekly sales report with VBA macros, reducing preparation time from 6 hours to 1 hour
+• Built Power BI dashboards to track store KPIs for regional managers
+• Validated data from POS and ERP systems and reconciled mismatches
+
+Data Analyst Intern
+Sample Analytics LLP, Delhi    Jan 2021 - Mar 2022
+• Cleaned and merged sales datasets using Python (Pandas)
+• Wrote SQL queries to extract customer data for monthly reports
+
+SKILLS
+Advanced Excel, Power Query, Power Pivot, VBA/Macros, Power BI, SQL, Python, MIS Reporting, Data Validation
+
+EDUCATION
+MBA in Business Analytics
+Example University, 2021 | CGPA 8.1
+B.Com, Sample College, 2018
+
+CERTIFICATIONS
+Microsoft Power BI Data Analyst (PL-300)
+
+PROJECTS
+Sales Forecasting Dashboard | Python, Power BI
+• Forecast monthly sales and visualised results in Power BI

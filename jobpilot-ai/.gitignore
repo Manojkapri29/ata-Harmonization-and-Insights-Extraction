@@ -1,0 +1,16 @@
+# secrets and personal data
+.env
+backend/.env
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+# python
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+# node
+frontend/node_modules/
+frontend/dist/
