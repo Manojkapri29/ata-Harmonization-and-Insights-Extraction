@@ -88,3 +88,18 @@ Final Deliverables
 
 Acknowledgment  
 This project highlights systematic approaches to solving data challenges and prepares for advanced data modeling and analysis tasks.
+
+---
+
+## Also in this repository: JobPilot AI
+
+[`jobpilot-ai/`](jobpilot-ai/) is a separate project: a personal job-search web app I built.
+
+- Finds jobs from public job APIs and company career pages. For LinkedIn and Naukri, it helps you import jobs through your own browser.
+- Scores each job against my profile and resume, and explains the score.
+- Gives an ATS compatibility estimate for a resume and creates a version tailored to each job (DOCX/PDF) without adding anything that isn't true.
+- Drafts HR emails, WhatsApp messages, LinkedIn notes and cover letters, and tracks applications and follow-ups on a dashboard.
+
+**Tech:** Python, FastAPI, SQLAlchemy, SQLite · React, TypeScript, Tailwind CSS, Recharts · optional AI (OpenAI-compatible, Anthropic or Ollama) · 61 automated tests.
+
+See [jobpilot-ai/README.md](jobpilot-ai/README.md) for features and [jobpilot-ai/SETUP.md](jobpilot-ai/SETUP.md) to run it.
