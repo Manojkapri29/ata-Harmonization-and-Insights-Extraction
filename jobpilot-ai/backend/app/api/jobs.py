@@ -246,7 +246,7 @@ def application_kit(job_id: int, use_ai: bool = True, db: Session = Depends(get_
 def get_kit(job_id: int, db: Session = Depends(get_db)):
     kit = pipeline.latest_kit(db, job_id)
     if not kit:
-        raise HTTPException(404, "No application kit yet")
+        return None      # no kit yet: an expected state, not an error
     comms = {ch: comm_out(db.get(Communication, cid), db).model_dump(mode="json")
              for ch, cid in kit.get("communication_ids", {}).items() if db.get(Communication, cid)}
     rv = db.get(ResumeVersion, kit.get("resume_version_id") or 0)

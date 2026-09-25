@@ -4,7 +4,7 @@ from __future__ import annotations
 import logging
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .api import jobs, resumes, system, tracking
@@ -37,15 +37,6 @@ app = FastAPI(title="JobPilot AI", version="1.0.0", lifespan=lifespan,
 origins = [o.strip() for o in get_settings().cors_origins.split(",") if o.strip()]
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=False, allow_methods=["*"],
                    allow_headers=["*"])
-
-
-@app.middleware("http")
-async def private_network_access(request: Request, call_next):
-    # lets the browser bookmarklet (running on a job site) reach this local API in Chromium browsers
-    response = await call_next(request)
-    if request.headers.get("access-control-request-private-network"):
-        response.headers["Access-Control-Allow-Private-Network"] = "true"
-    return response
 
 
 for r in (jobs.router, resumes.router, tracking.router, system.router):
