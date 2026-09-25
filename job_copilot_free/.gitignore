@@ -1,0 +1,6 @@
+# personal data stays on your machine
+profile.yaml
+data/*.csv
+.streamlit/secrets.toml
+__pycache__/
+.pytest_cache/
