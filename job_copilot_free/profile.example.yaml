@@ -1,0 +1,118 @@
+# MASTER PROFILE - everything TRUE about you, in one place.
+# The app picks and re-orders from this for each job. It never invents anything,
+# so the more real detail (numbers, tools, results) you write here, the better every resume gets.
+#
+# Copy this file to profile.yaml (git-ignored, stays private) or edit it inside the app.
+# Anything in <angle brackets> is a placeholder - replace it or delete the line.
+
+name: Manoj Kapri
+headline: MBA in Data Science & Analytics | Data Analyst | MIS & Reporting
+contact:
+  email: <your.email@example.com>
+  phone: <+91-XXXXXXXXXX>
+  location: India
+  linkedin: <linkedin.com/in/your-id>
+  github: github.com/manojkapri29
+
+summary: >
+  MBA (Data Science & Analytics, 8.27 CGPA) with hands-on experience in data cleaning,
+  exploratory data analysis, machine learning and MIS reporting. Built and deployed
+  forecasting and prediction models with Python, Flask/Streamlit and MLOps tools
+  (MLflow, DVC). Comfortable turning raw business data into clear Excel and
+  dashboard reports for decision makers.
+
+# One first-person sentence used in cover letters
+pitch: >
+  I am an MBA graduate in Data Science & Analytics (CGPA 8.27) with hands-on experience
+  in data cleaning, EDA, machine learning and MIS reporting.
+
+# Search keywords used by default in "Find Jobs" (comma-separated phrases work best)
+target_roles:
+  - Data Analyst
+  - MIS Executive
+  - Business Analyst
+  - Junior Data Scientist
+
+skills:
+  Programming & Data: [Python, SQL, Pandas, NumPy, Scikit-learn, Jupyter]
+  Analysis: [Data Cleaning, EDA, Statistics, Feature Engineering, Time Series Forecasting, Machine Learning]
+  BI & Reporting: [Advanced Excel, Pivot Tables, VLOOKUP/XLOOKUP, Excel Dashboards, MIS Reporting, Matplotlib, Seaborn]
+  Deployment & MLOps: [Flask, Streamlit, MLflow, DVC, Git]
+
+experience:
+  - title: DPR Consultant
+    company: NHAI (National Highways Authority of India) project
+    location: Ludhiana, Punjab
+    start: <Mon YYYY>
+    end: Present
+    bullets:
+      - Prepare Daily Progress Reports (DPR) for a national highway project, tracking site progress against plan
+      - Consolidate site data into structured Excel reports for project management and authority review
+      - <Add a result with a number, e.g. "Cut report preparation time from X hours to Y hours using Excel automation">
+
+  - title: Data Science Intern
+    company: NextHikes IT Solutions
+    location: <City / Remote>
+    start: Sep 2024
+    end: <Mon YYYY / Present>
+    bullets:
+      - Cleaned, merged and standardised multi-source datasets in Python (Pandas, NumPy) for analysis
+      - Performed exploratory data analysis and statistical testing to find trends and drivers
+      - Built machine learning models for sales forecasting and price prediction
+      - Deployed models as web apps using Flask and Streamlit
+      - Tracked experiments and data versions with MLflow and DVC
+
+  - title: MIS Executive
+    company: The Lalit Suri Hospitality Group
+    location: <City>
+    start: <Mon YYYY>
+    end: <Mon YYYY>
+    bullets:
+      - Prepared daily, weekly and monthly MIS reports for management using Advanced Excel
+      - Built Excel dashboards with pivot tables, lookups and conditional formatting to track KPIs
+      - Maintained data accuracy across operational records and reconciled discrepancies
+
+projects:
+  - name: Rossmann Pharmaceuticals Sales Forecasting
+    tech: [Python, Scikit-learn, Deep Learning, MLflow, DVC, Streamlit]
+    link: <github link>
+    bullets:
+      - Analysed customer behaviour and store-level sales patterns across Rossmann stores
+      - Built machine learning and deep learning time series models to forecast sales
+      - Deployed the forecasting model with Flask/Streamlit and tracked runs with MLflow
+
+  - name: Sales Forecasting Across Multiple Retail Stores
+    tech: [Python, Time Series, MLflow, DVC, Flask]
+    bullets:
+      - Forecast store sales using time series and machine learning models
+      - Versioned data and models with DVC and served predictions through a Flask app
+
+  - name: Feature Extraction and Price Prediction for Mobile Phones
+    tech: [Python, Pandas, Scikit-learn]
+    bullets:
+      - Engineered features from raw mobile phone specifications
+      - Trained and compared regression models to predict phone prices
+
+  - name: Data Harmonization and Insights Extraction
+    tech: [Python, Pandas, NumPy, Matplotlib, Seaborn]
+    link: github.com/manojkapri29/ata-harmonization-and-insights-extraction
+    bullets:
+      - Merged three rental and weather datasets on common keys into one clean dataset
+      - Handled missing values and outliers, then ran skewness and correlation analysis
+      - Presented insights with boxplots and heatmaps in a notebook and PowerPoint deck
+
+  - name: Exploratory Data Analysis (EDA)
+    tech: [Python, Pandas, Seaborn]
+    bullets:
+      - Performed statistical analysis and visualisation to summarise dataset patterns
+
+education:
+  - degree: MBA, Data Science and Analytics
+    institution: Manipal University Jaipur
+    year: 2025
+    score: CGPA 8.27
+  - degree: BBA
+    institution: Khandelwal College of Management and Technology
+    year: 2014 - 2017
+
+certifications: []
